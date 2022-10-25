@@ -12,7 +12,8 @@ app.use('/api/v1', router)
 const start = async ()=>{
   try {
     console.log('process.env.MONGO_URI', process.env.MONGO_URI)
-    await connectDB('mongodb+srv://Guvanch99:Guvanch99@cluster0.v9q8svr.mongodb.net/jwt-basic?retryWrites=true&w=majority')
+      //here must be dot env Mongo uri
+    await connectDB('')
     app.listen(PORT, ()=>console.log('started'))
   }catch (e){
     throw new Error(e)
