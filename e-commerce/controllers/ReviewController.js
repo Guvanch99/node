@@ -19,7 +19,7 @@ class ReviewController{
     res.status(StatusCodes.OK).json(update)
   }
   async deleteReview(req,res){
-    await ReviewService.deleteReview(req.params.id)
+    await ReviewService.deleteReview(req.params.id, req)
     res.status(StatusCodes.OK).json({msg:'success'})
   }
 }

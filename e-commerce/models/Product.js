@@ -60,13 +60,20 @@ const ProductModel = mongoose.Schema({
     type: mongoose.Types.ObjectId,
     ref:'User',
     required:true
+  },
+  numOfReviews: {
+    type: Number,
+    default: 0
   }
-},{timestamps:true, toJSON:{
-  virtuals:true,
+},{
+  timestamps:true,
+  toJSON:{
+    virtuals:true,
     toObject:{
-    virtuals: true
+      virtuals: true
+    }
   }
-}})
+})
 
 ProductModel.virtual('reviews', {
   ref:'Review',

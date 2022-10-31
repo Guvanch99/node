@@ -22,7 +22,7 @@ class ProductController{
     await ProductService.deleteProduct(req.params.id)
     res.status(StatusCodes.OK).json({msg:'Success'})
   }
-  async getSingleProductReviews(req,res){
+  async getSingleProductReviews(req, res ){
     const reviews =await ProductService.singleProductReview(req.params.id)
     res.status(StatusCodes.OK).json(reviews)
   }

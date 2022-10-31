@@ -8,7 +8,7 @@ class ReviewService{
   async createReview(req){
     const { product: productId } = req.body
     const isValidProduct = await Product.findOne({_id: productId})
-    if (isValidProduct){
+    if (!isValidProduct){
       throw new NotFoundError(`No review with this id: ${productId}`)
     }
     const alreadySubmitted = await Review.findOne({ _id: productId, user:req.user.userId })
@@ -30,7 +30,7 @@ class ReviewService{
     }
     return review
   }
-  async deleteReview(id){
+  async deleteReview(id, req){
     const review = await Review.findOne({_id:id})
     if(!review){
       throw new NotFoundError('Invalid product id')
