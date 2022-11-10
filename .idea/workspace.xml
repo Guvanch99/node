@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c20c8d6-9645-4bc0-83b5-b569e3b8a6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/jwt-basic/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest/store-api/src/products/products.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/products/products.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/products/products.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/src/products/products.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/products/products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/src/products/products.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/products/products.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/src/products/products.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest/store-api/src/products/products.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest/store-api/test/jest-e2e.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nest/store-api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,30 +21,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/guvanchavediev/Desktop/development/node/node",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/guvanchavediev/Desktop/development/node/node/nest/store-api/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guvanchavediev/Desktop/development/node/node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/guvanchavediev/Desktop/development/node/node/nest/store-api/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nest/jwt-basic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nest" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager">
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/nest/store-api/package.json" />
@@ -97,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667982897471</updated>
       <workItem from="1667982898723" duration="10836000" />
-      <workItem from="1668059561031" duration="5028000" />
+      <workItem from="1668059561031" duration="1835000" />
+      <workItem from="1668062262941" duration="1136000" />
     </task>
     <servers />
   </component>
